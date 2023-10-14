@@ -1,0 +1,13 @@
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+@media only screen and (max-width: 1023px) {
+  .container {
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+}

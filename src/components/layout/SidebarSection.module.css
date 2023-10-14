@@ -1,0 +1,16 @@
+.sidebar {
+  height: 100%;
+  width: 35%;
+  position: relative;
+  background: #015249 0% 0% no-repeat padding-box;
+  border-radius: 0px 1.4641288433382138vw 1.4641288433382138vw 0px;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 1023px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: unset;
+  }
+}

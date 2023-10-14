@@ -1,0 +1,33 @@
+.header {
+  background-color: #ffffff;
+  box-shadow: 0px 0.21961932650073207vw 1.0980966325036603vw #6b6b6b1a;
+  height: 25%;
+  width: 100%;
+  position: relative;
+}
+
+.header > h1 {
+  color: #000000;
+  font-family: LatoBlack;
+  width: max-content;
+  height: max-content;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 3vw;
+  font-size: 2.5vw;
+}
+
+@media only screen and (max-width: 1023px) {
+  .header {
+    position: static;
+    padding: 3vh 0;
+  }
+
+  .header > h1 {
+    position: static;
+    margin: 2vh 3vw;
+    font-size: 6vw;
+  }
+}
