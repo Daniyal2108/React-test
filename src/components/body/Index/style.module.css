@@ -292,6 +292,7 @@
   .inputError {
     font-size: 3.5vw;
     left: 0;
+    position: static;
   }
 
   /* body {
