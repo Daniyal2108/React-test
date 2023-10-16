@@ -58,7 +58,11 @@ const useOneTimeCall = (onEdit = () => {}, onDelete = () => {}) => {
           className={classes.dltBtn}
         />
       ),
-      avatar: <Image src={itm?.avatar} alt="customer-avatar" />,
+      avatar: (
+        <div className={classes.customerImage}>
+          <Image src={itm?.avatar} alt="customer-avatar" />
+        </div>
+      ),
     };
   });
 
@@ -66,7 +70,3 @@ const useOneTimeCall = (onEdit = () => {}, onDelete = () => {}) => {
 };
 
 export default useOneTimeCall;
-
-// typeof itm?.avatar !== "string"
-// ? URL.createObjectURL(itm?.avatar)
-// :

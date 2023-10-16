@@ -5,6 +5,7 @@ const customerSlice = createSlice({
   initialState: {
     customers: [],
     isApiTruthy: true,
+    isModal: false,
   },
   reducers: {
     getCustomers(state, actions) {
